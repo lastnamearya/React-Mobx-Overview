@@ -18,7 +18,7 @@ const CalculationStore = extendObservable(this, {
   },
 
   get addition() {
-    return this.valueThree + this.valueFour;
+    return Number(this.valueThree) + Number(this.valueFour);
   },
 
   firstValue: action(valueThree => {
