@@ -1,4 +1,4 @@
-import { extendObservable, action } from 'mobx';
+import { extendObservable, action } from "mobx";
 
 const CounterStore = extendObservable(this, {
   count: 0,
