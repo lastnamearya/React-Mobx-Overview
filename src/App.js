@@ -1,7 +1,10 @@
 import React, { Component } from "react";
+import Counter from "./Counter";
+import CounterStore from "./CounterStore";
+
 class App extends Component {
   render() {
-    return <div>Hello World</div>;
+    return <Counter store={CounterStore} />;
   }
 }
 
